@@ -109,5 +109,17 @@ module.exports = {
     scriptHash: 35,
     wif: 0xef,
     coin: coins.CAPRICOIN
+  },
+  fabcoin: {
+    messagePrefix: '\x18Fabcoin Signed Message:\n',
+    bech32: null,
+    bip32: {
+      public: 76067358,
+      private: 76066276
+    },
+    pubKeyHash: 28,
+    scriptHash: 35,
+    wif: 0xef,
+    coin: coins.FAB
   }
 }

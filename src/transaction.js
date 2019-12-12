@@ -25,10 +25,10 @@ function vectorSize (someVector) {
 }
 
 function Transaction (network) {
-  this.version = 3
+  this.version = 2
   this.locktime = 0
   this.timestamp = 0 // capricoin specific
-  this.network = network || networks.zcash
+  this.network = network || networks.fabcoin
   this.ins = []
   this.outs = []
   this.joinsplits = [] // zcash specific
